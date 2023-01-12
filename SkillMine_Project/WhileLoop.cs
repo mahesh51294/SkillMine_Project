@@ -7,18 +7,18 @@ namespace SkillMine_Project
     class WhileLoop
     {
 
-        static void Main(string[]args)
+        static void Main(string[] args)
         {
             int sum = 0;
             int i = 0;
-            while (i<= 20)
+            while (i <= 20)
             {
                 if (i % 2 != 0)
                 {
                     sum = sum + i;
-                    
+
                 }
-                
+
                 i++;
             }
             Console.WriteLine(sum);
@@ -27,13 +27,13 @@ namespace SkillMine_Project
 
     class CountNumbers
     {
-        static void Main(string[]args)
+        static void Main(string[] args)
         {
             Console.WriteLine("Enter the number");
             int num = int.Parse(Console.ReadLine());
             int sum = 0;
 
-            while(num>0)
+            while (num > 0)
             {
                 int digit = num % 10;
                 sum = sum + digit;
@@ -78,33 +78,34 @@ namespace SkillMine_Project
         }
 
     }
-           
 
 
-        
 
-        class SumOf
+
+
+    class SumOf
+    {
+        static void Main(string[] args)
         {
-            static void Main(string[]args)
+            int i = 0;
+            int sum = 0;
+            while (i <= 20)
             {
-                int i = 0;
-                int sum = 0;
-                while( i<=20)
-                        {
-                    sum = sum + i;
-                    if(sum>10)
-                    {
-                        break;
-                    }
-                    i++;
-
-
+                sum = sum + i;
+                if (sum > 10)
+                {
+                    break;
                 }
-                Console.WriteLine(sum);
-            }
-        }
+                i++;
 
-    class SpyNumber
+
+            }
+            Console.WriteLine(sum);
+        }
+    }
+}
+
+   /* class SpyNumber
     {
         static void Main(string[]args)
         {
@@ -112,7 +113,7 @@ namespace SkillMine_Project
             int num = int.Parse(Console.ReadLine);
         }
     }
-    }
+    }*/
 
 
 

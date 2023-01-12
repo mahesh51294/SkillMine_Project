@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>	  
-	  <StartupObject>SkillMine_Project.SumOf</StartupObject>
+	  <StartupObject>SkillMine_Project.CountOddElement</StartupObject>
   </PropertyGroup>
 
 </Project>
